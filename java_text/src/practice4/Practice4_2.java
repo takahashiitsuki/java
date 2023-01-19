@@ -31,6 +31,12 @@ public class Practice4_2 {
 		return (a + b + c) /3;
 	}
 	
+	static boolean isSameAbsoluteValue(int i, int j) {
+		i = getAbsoluteValue(i);
+		j = getAbsoluteValue(j);
+		return i == j;
+	}
+	
 	public static void main(String[] args) {
 		double triangleArea = getTriangleArea(10.0, 3.0);
 		System.out.println(triangleArea);
@@ -43,5 +49,7 @@ public class Practice4_2 {
 		System.out.println(absolutevalue);
 		double average = getAverage(1.0, 2.0, 1.5);
 		System.out.println(average);
+		boolean sameabsolutevalue = isSameAbsoluteValue(1, -2);
+		System.out.println(sameabsolutevalue);
 	}
 }
