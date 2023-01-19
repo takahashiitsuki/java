@@ -15,11 +15,27 @@ public class Practice4_2 {
 		return width * height;
 	}
 	
+	static String getMessage(String name) {
+		String message = ("こんにちは" + name + "さん");
+		return message;
+	}
+	
+	static int getAbsoluteValue(int value) {
+		if (value < 0) {
+			value *= -1;
+		}
+		return value;
+	}
+	
 	public static void main(String[] args) {
 		double triangleArea = getTriangleArea(10.0, 3.0);
 		System.out.println(triangleArea);
 		printHello(3);
 		double rectangleArea = getRectangleArea(10.0, 3.0);
 		System.out.println(rectangleArea);
+		String message = getMessage("田中");
+		System.out.println(message);
+		int absolutevalue = getAbsoluteValue(-1);
+		System.out.println(absolutevalue);
 	}
 }
