@@ -27,6 +27,10 @@ public class Practice4_2 {
 		return value;
 	}
 	
+	static double getAverage(double a, double b, double c) {
+		return (a + b + c) /3;
+	}
+	
 	public static void main(String[] args) {
 		double triangleArea = getTriangleArea(10.0, 3.0);
 		System.out.println(triangleArea);
@@ -37,5 +41,7 @@ public class Practice4_2 {
 		System.out.println(message);
 		int absolutevalue = getAbsoluteValue(-1);
 		System.out.println(absolutevalue);
+		double average = getAverage(1.0, 2.0, 1.5);
+		System.out.println(average);
 	}
 }
