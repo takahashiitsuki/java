@@ -23,6 +23,10 @@ public class Practice5_2 {
 		}
 	}
 	
+	static int getTotalAge(Person p1, Person p2) {
+		return p1.age + p2.age;
+	}
+	
 	public static void main(String[] args) {
 		Person a = new Person();
 		a.name = "高橋太郎";
@@ -34,5 +38,7 @@ public class Practice5_2 {
 		boolean agecheck = ageCheck(b, 18);
 		System.out.println(agecheck);
 		printYoungerPersonName(b, a);
+		int totalage = getTotalAge(a, b);
+		System.out.println(totalage);
 	}
 }
