@@ -15,6 +15,14 @@ public class Practice5_2 {
 		return p.age > i;
 	}
 	
+	static void printYoungerPersonName(Person p1, Person p2) {
+		if(p1.age <= p2.age) {
+			System.out.println(p1.name);
+		}else {
+			System.out.println(p2.name);
+		}
+	}
+	
 	public static void main(String[] args) {
 		Person a = new Person();
 		a.name = "高橋太郎";
@@ -25,5 +33,6 @@ public class Practice5_2 {
 		printInfo(a);
 		boolean agecheck = ageCheck(b, 18);
 		System.out.println(agecheck);
+		printYoungerPersonName(b, a);
 	}
 }
