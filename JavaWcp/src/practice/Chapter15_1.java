@@ -9,17 +9,9 @@ public class Chapter15_1 {
 	
 	// ユークリッドの互除法で最大公約数を計算するメソッド
 	static int gcd(int a, int b) {
-		int c;
-		while (b != 0) {
-			if(a < b) {
-				c = a;
-				a = b;
-				b = c;
-			}
-			c = b;
-			b = a % b;
-			a = c;
+		if(b == 0) {
+			return a;
 		}
-		return a;
+		return gcd(b, a % b);
 	}
 }
