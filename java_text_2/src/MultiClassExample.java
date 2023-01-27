@@ -8,7 +8,7 @@ class SimpleClass{
 
 public class MultiClassExample {
 	public static void main(String[] args) {
-		Simple Class sc = new SimpleClass("Hello.");
+		SimpleClass sc = new SimpleClass("Hello.");
 		System.out.println(sc.str);
 	}
 }
