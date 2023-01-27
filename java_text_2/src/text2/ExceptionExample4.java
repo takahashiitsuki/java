@@ -1,3 +1,4 @@
+package text2;
 
 public class ExceptionExample4 {
 	public static void main(String[] args) {

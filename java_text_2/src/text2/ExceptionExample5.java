@@ -1,3 +1,4 @@
+package text2;
 class SimpleClass2{
 	void doSomething() {
 		int array[] = new int[3];

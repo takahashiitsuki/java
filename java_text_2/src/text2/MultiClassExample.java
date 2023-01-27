@@ -1,3 +1,4 @@
+package text2;
 class SimpleClass{
 	String str;
 	SimpleClass(String str){
