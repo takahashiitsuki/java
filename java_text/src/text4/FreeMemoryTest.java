@@ -1,6 +1,6 @@
 package text4;
 
-class DataSet{
+//class DataSet{
 	int[] data = new int[100];
 }
 
