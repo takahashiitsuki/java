@@ -1,4 +1,4 @@
-package selflearn_java.chap01;
+package chap02;
 
 public class Practice1 {
 	public static void main(String[] args) {
