@@ -3,10 +3,9 @@ package chap02;
 public class Practice5 {
 	public static void main(String[] args) {
 		//①
-		var value = 10.0;
+		var value = 10d;
 		//②
-		System.out.println("ようこそ、");
-		System.out.println("Javaの世界へ！");
+		System.out.println("ようこそ、\nJavaの世界へ！");
 		//③
 		String str = null;
 		//④
