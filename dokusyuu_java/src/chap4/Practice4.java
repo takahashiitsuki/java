@@ -4,14 +4,10 @@ public class Practice4 {
 	public static void main(String[] args) {
 		String language = "Scala";
 		switch(language) {
-		case "Scala":
-		case "Lotlin":
-		case "Groovy":
+		case "Scala","Lotlin","Groovy":
 			System.out.println("JVM言語");
 		break;
-		case "C#":
-		case "Visual Basic":
-		case "F#":
+		case "C#","Visual Basic","F#":
 			System.out.println(".NET言語");
 		break;
 		default:
