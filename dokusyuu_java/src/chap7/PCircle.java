@@ -10,4 +10,8 @@ public class PCircle {
 	public double getArea() {
 		return this.radius * this.radius * Math.PI;
 	}
+	
+	public PCircle() {
+		this(1);
+	}
 }
