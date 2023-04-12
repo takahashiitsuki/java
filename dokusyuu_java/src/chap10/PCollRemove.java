@@ -9,6 +9,5 @@ public class PCollRemove {
 		Arrays.asList("シュークリーム", "エクレア", "マドレーヌ", "ババロア"));
 	list.removeIf(v -> v.length() < 5);
 	System.out.println(list);
-	System.out.println(list);
-}
+	}
 }
