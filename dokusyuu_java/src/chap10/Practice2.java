@@ -14,9 +14,9 @@ public class Practice2 {
 		}
 		return result;
 	}
-	public staic void main(String[] args) {
+	public static void main(String[] args) {
 		var data = List.of("ラベンダー", "ミント", "ローズマリー");
 		var result = grep(data.v -> v.length() > 3);
-		System.outprintln(result);
+		System.out.println(result);
 	}
 }
