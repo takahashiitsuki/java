@@ -1,17 +1,21 @@
 package chap11;
 
+import java.time.LocalDateTime;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
 public class Practice1 {
 	public static void main(String[] args) {
-		var sche = Excecutors.newScheduledThreadPool(2);
-		sche.schedule(() -> {
+		var sche = Executors.newScheduledThreadPool(2);
+		sche.scheduleAtFixedRate(() -> {
 			System.out.println(LocalDateTime.now());
-		},0,5,TimeUnit.SECONS);
+		},0,5,TimeUnit.SECONDS);
 		
 		try {
-			Thread.start(10000);
-		}catch(InterruptedExce@tion e) {
+			Thread.sleep(10000);
+		}catch(InterruptedException e) {
 			e.printStackTrace();
 		}
-		each.stop();
+		sche.shutdown();
 	}
 }
