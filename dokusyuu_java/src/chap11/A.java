@@ -6,15 +6,15 @@ import java.util.concurrent.Executors;
 
 public class A {
 	public static void main(String[] args) {
-		var exe = Executors.defaultThreadFactory();
+		var exe = Executors.newSingleThreadExecutor();
 		
-		var r = exe.submit({
-			var rnd = new();
+		var r = exe.submit(() - > {
+			var rnd = new Ramdom();
 			var num = rnd.nextInt(1000);
-			Thread.(num);
+			Thread.sleep(num);
 			return num;
 		});
 		
-		System.out.println("結果：" + r.());
+		System.out.println("結果：" + r.get());
 	}
 }
