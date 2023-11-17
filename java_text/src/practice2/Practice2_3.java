@@ -4,11 +4,11 @@ public class Practice2_3 {
 	public static void main(String[] args) {
 		int a = 1;
 		a += 5;
-		System.out.println(a);
+		System.out.println(1);
 		a -= 6;
-		System.out.println(a);
+		System.out.println(2);
 		a *= 1;
-		System.out.println(a);
+		System.out.println(3);
 		int d = 6;
 		d /= 3;
 		System.out.println(d);
