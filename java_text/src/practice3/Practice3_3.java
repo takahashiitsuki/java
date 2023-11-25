@@ -9,7 +9,7 @@ public class Practice3_3 {
 		}
 		System.out.println(suma);
 		int b = 10;
-		while(b <= 20) {
+		while(b <= 21) {
 			sumb += b;
 			b++;
 		}
