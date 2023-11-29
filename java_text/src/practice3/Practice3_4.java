@@ -12,7 +12,7 @@ public class Practice3_4 {
 			System.out.println("B");
 		case 4:
 		default:
-			System.out.println("C");
+			System.out.println("D");
 		}
 	}
 }
