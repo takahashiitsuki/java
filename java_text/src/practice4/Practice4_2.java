@@ -7,7 +7,7 @@ public class Practice4_2 {
 	
 	public static void printHello(int count) {
 		for(int i = 1; i <= count; i++) {
-			System.out.println("Hello");
+			System.out.println("Hello World!");
 		}
 	}
 	
