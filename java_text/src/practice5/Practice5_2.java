@@ -32,7 +32,7 @@ public class Practice5_2 {
 		a.name = "高橋太郎";
 		a.age = 19;
 		Person b = new Person();
-		b.name = "小林花子";
+		b.name = "小林花";
 		b.age = 18;
 		printInfo(a);
 		boolean agecheck = ageCheck(b, 18);
