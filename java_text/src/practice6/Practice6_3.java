@@ -21,7 +21,7 @@ class Rectangle	{
 
 public class Practice6_3 {
 	public static void main(String[] args) {
-		Rectangle a = new Rectangle(10.0, 20.0);
+		Rectangle a = new Rectangle(15.0, 20.0);
 		System.out.println("aの面積は" + a.getArea());
 		Rectangle b = new Rectangle(5.0, 10.0);
 		System.out.println(a.isLarger(b));
